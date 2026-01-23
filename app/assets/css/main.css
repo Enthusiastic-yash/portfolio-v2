@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+    --background: var(--color-zinc-950);
+    --forground:var(--color-zinc-50);
+    
+}
+
+@theme {
+    --font-body: Inter, sans-serif;
+    --font-heading: Poppins, sans-serif;
+    --font-code: "JetBrains Mono", monospace;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-forground:var(--forground);
+}
