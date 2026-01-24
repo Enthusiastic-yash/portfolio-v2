@@ -1,6 +1,6 @@
 <template>
   <container>
-    <h1 class="font-heading">Hello wold</h1>
+    <navbar />
   </container>
 </template>
 

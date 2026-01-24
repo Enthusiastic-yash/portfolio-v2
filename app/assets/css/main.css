@@ -2,8 +2,8 @@
 
 :root {
     --background: var(--color-zinc-950);
-    --forground:var(--color-zinc-50);
-    
+    --forground: var(--color-zinc-50);
+
 }
 
 @theme {
@@ -14,5 +14,5 @@
 
 @theme inline {
     --color-background: var(--background);
-    --color-forground:var(--forground);
+    --color-forground: var(--forground);
 }
