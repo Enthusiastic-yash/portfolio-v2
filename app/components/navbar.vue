@@ -50,14 +50,14 @@
       </ul>
 
       <!-- Mobile toggle -->
-      <button @click="isOpen = !isOpen" class="sm:hidden">
+      <button @click="isOpen = !isOpen" class="cursor-pointer sm:hidden">
         <IconMenu2 v-if="!isOpen" stroke="{2}" />
         <IconX v-else stroke="{2}" />
       </button>
     </div>
     <!-- Mobile nav -->
     <div
-      class="absolute top-full left-0 w-full translate-y-0 backdrop-blur-3xl transition-all duration-200 ease-out sm:hidden"
+      class="absolute top-full left-0 z-20 w-full translate-y-0 backdrop-blur-xl transition-all duration-200 ease-out sm:hidden"
       :class="
         isOpen
           ? 'pointer-events-auto translate-y-5 opacity-100'

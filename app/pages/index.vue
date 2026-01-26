@@ -3,6 +3,7 @@
     <div
       class="absolute inset-0 bg-[radial-gradient(80%_100%_at_50%_-30%,hsl(206,81.9%,65.3%,0.5),rgba(255,255,255,0))] mask-[radial-gradient(75%_180%_at_top_center,white,transparent)] stroke-white/5"
     >
+      <!-- grid pattern work with mask gradient -->
       <svg
         class="__web-inspector-hide-shortcut__ absolute inset-0 -z-10 h-full w-full mask-[radial-gradient(75%_50%_at_top_center,white,transparent)] stroke-white/5"
         aria-hidden="true"
