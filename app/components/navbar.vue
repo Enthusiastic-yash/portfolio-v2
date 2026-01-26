@@ -37,7 +37,7 @@
         </li>
         <li>
           <button
-            class="group relative cursor-pointer rounded-full px-4 py-1.5 ring-1 ring-white/10 transition duration-300 hover:shadow-[0px_0px_12px_rgba(56,189,248,0.35),0_0_28px_rgba(56,189,248,0.25),0_0_60px_rgba(56,189,248,0.15)]"
+            class="group relative cursor-pointer rounded-full bg-zinc-950 px-4 py-1.5 text-zinc-400 ring-1 ring-white/10 transition duration-300 hover:shadow-[0px_0px_12px_rgba(56,189,248,0.35),0_0_28px_rgba(56,189,248,0.25),0_0_60px_rgba(56,189,248,0.15)]"
           >
             Resume
             <!-- underline glow -->
@@ -57,7 +57,7 @@
     </div>
     <!-- Mobile nav -->
     <div
-      class="absolute top-full left-0 w-full translate-y-0 transition-all duration-200 ease-out sm:hidden"
+      class="absolute top-full left-0 w-full translate-y-0 backdrop-blur-3xl transition-all duration-200 ease-out sm:hidden"
       :class="
         isOpen
           ? 'pointer-events-auto translate-y-5 opacity-100'
@@ -65,7 +65,7 @@
       "
     >
       <ul
-        class="font-body flex flex-col items-center gap-x-6 justify-self-start text-lg leading-12 font-medium text-zinc-300 backdrop-blur-lg"
+        class="font-body flex flex-col items-center gap-x-6 justify-self-start text-lg leading-12 font-medium text-zinc-300"
       >
         <li class="self-start pl-5 hover:text-zinc-100">
           <a href="#">About</a>
