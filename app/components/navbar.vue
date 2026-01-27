@@ -1,15 +1,15 @@
 <template>
   <!-- Desktop navbar -->
-  <nav class="relative flex w-full px-4 py-6">
+  <nav class="relative mx-auto flex w-full max-w-7xl px-4 py-6">
     <div class="mx-auto flex w-full items-center justify-between">
       <span>
-        <a href="/">
+        <NuxtLink to="/">
           <img
             class="size-10 object-cover invert"
             src="../assets/images/logo.png"
             alt="logo"
           />
-        </a>
+        </NuxtLink>
       </span>
 
       <ul
@@ -18,22 +18,22 @@
         <li
           class="transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-zinc-100"
         >
-          <a href="#about">About</a>
+          <NuxtLink to="#about">About</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-zinc-100"
         >
-          <a href="#">Skills</a>
+          <NuxtLink to="#skills">Skills</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-zinc-100"
         >
-          <a href="#">Projects</a>
+          <NuxtLink to="#projects">Projects</NuxtLink>
         </li>
         <li
           class="transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-zinc-100"
         >
-          <a href="#">Experience</a>
+          <NuxtLink to="#experience">Experience</NuxtLink>
         </li>
         <li>
           <button
@@ -68,16 +68,16 @@
         class="font-body flex flex-col items-center gap-x-6 justify-self-start text-lg leading-12 font-medium text-zinc-300"
       >
         <li class="self-start pl-5 hover:text-zinc-100">
-          <a href="#">About</a>
+          <NuxtLink to="#about">About</NuxtLink>
         </li>
         <li class="self-start pl-5 hover:text-zinc-100">
-          <a href="#">Skills</a>
+          <NuxtLink to="#skills">Skills</NuxtLink>
         </li>
         <li class="self-start pl-5 hover:text-zinc-100">
-          <a href="#">Projects</a>
+          <NuxtLink to="#projects">Projects</NuxtLink>
         </li>
         <li class="self-start pl-5 hover:text-zinc-100">
-          <a href="#">Experience</a>
+          <NuxtLink to="#experience">Experience</NuxtLink>
         </li>
         <li>
           <button
