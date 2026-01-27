@@ -30,11 +30,6 @@
         >
           <NuxtLink to="#projects">Projects</NuxtLink>
         </li>
-        <li
-          class="transition-all duration-300 ease-in-out hover:-translate-y-1 hover:text-zinc-100"
-        >
-          <NuxtLink to="#experience">Experience</NuxtLink>
-        </li>
         <li>
           <button
             class="group relative cursor-pointer rounded-full bg-zinc-950 px-4 py-1.5 text-zinc-400 ring-1 ring-white/10 transition duration-300 hover:shadow-[0px_0px_12px_rgba(56,189,248,0.35),0_0_28px_rgba(56,189,248,0.25),0_0_60px_rgba(56,189,248,0.15)]"
@@ -75,9 +70,6 @@
         </li>
         <li class="self-start pl-5 hover:text-zinc-100">
           <NuxtLink to="#projects">Projects</NuxtLink>
-        </li>
-        <li class="self-start pl-5 hover:text-zinc-100">
-          <NuxtLink to="#experience">Experience</NuxtLink>
         </li>
         <li>
           <button
