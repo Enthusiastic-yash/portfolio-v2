@@ -1,21 +1,19 @@
 <template>
-  <div id="about" class="grid grid-cols-1 md:grid-cols-2">
+  <div id="about" class="grid grid-cols-1 pb-8">
     <div>
-      <h2>Bridging the gap between design and engineering.</h2>
-      <p>
-        Hello! I'm a software engineer with a passion for design. I enjoy
-        creating things that live on the internet. My interest in web
-        development started back in 2012 when I decided to try editing custom
-        Tumblr themes — turns out hacking together HTML & CSS is pretty fun!
-        Fast-forward to today, and I've had the privilege of working at an
-        advertising agency, a start-up, a huge corporation, and a student-led
-        design studio. My main focus these days is building accessible,
-        inclusive products and digital experiences at Upstatement for a variety
-        of clients.
+      <h2
+        class="font-heading bg-linear-to-br from-white to-zinc-500 bg-clip-text py-4 text-3xl font-bold text-transparent"
+      >
+        About Me
+      </h2>
+      <p class="font-body text-md leading-8 text-zinc-400/80">
+        Hi there! My name is yash kashyap and I'm a software developer at Gray
+        Swan AI, an AI safety and security company located in Pittsburgh, PA. My
+        current software development skills primarily focus around web
+        development, but I also enjoy experimenting with app development,
+        creative coding, data visualization, Human-Computer Interaction (HCI),
+        and UX.
       </p>
-    </div>
-    <div>
-      <h3>second section</h3>
     </div>
   </div>
 </template>
