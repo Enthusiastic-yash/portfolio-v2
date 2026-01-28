@@ -42,9 +42,17 @@ import {
   IconBrandFirebase,
   IconBrandVercelFilled,
   IconBrandTypescript,
+  type Icon,
 } from "@tabler/icons-vue";
 
-const skills = ref([
+interface Skills {
+  id: number;
+  title: string;
+  logo: Icon;
+  iconColor: string;
+}
+
+const skills = ref<Skills[]>([
   {
     id: 1,
     title: "Html",
