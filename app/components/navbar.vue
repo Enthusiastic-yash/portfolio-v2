@@ -4,9 +4,9 @@
     <div class="mx-auto flex w-full items-center justify-between">
       <span>
         <NuxtLink to="/">
-          <img
+          <NuxtImg
             class="size-10 object-cover invert"
-            src="../assets/images/logo.png"
+            src="./images/logo.png"
             alt="logo"
           />
         </NuxtLink>

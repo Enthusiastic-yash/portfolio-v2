@@ -3,6 +3,7 @@
     <hero-section />
     <about-section />
     <skill-section />
+    <project-section />
   </container>
 </template>
 
