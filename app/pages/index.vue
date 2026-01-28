@@ -2,6 +2,7 @@
   <container>
     <hero-section />
     <about-section />
+    <skill-section />
   </container>
 </template>
 
