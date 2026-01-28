@@ -43,7 +43,7 @@
           <div class="mt-3 flex flex-col gap-2 md:flex-row md:gap-4">
             <NuxtLink :to="project.appLink" target="_blank">
               <div
-                class="mt-2 flex w-full cursor-pointer items-center justify-center rounded-lg bg-zinc-900/80 py-1 ring-1 ring-zinc-100/10 hover:shadow-[0px_0px_5px_rgba(56,189,248,0.35),0_0_12px_rgba(56,189,248,0.25),0_0_50px_rgba(56,189,248,0.15)] md:w-32 md:justify-evenly"
+                class="mt-2 flex w-full cursor-pointer items-center justify-center rounded-lg bg-zinc-900/80 py-1 ring-1 ring-zinc-100/10 transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-[0px_0px_5px_rgba(56,189,248,0.35),0_0_12px_rgba(56,189,248,0.25),0_0_50px_rgba(56,189,248,0.15)] md:w-32 md:justify-evenly"
               >
                 <IconExternalLink class="size-8 pr-2 md:size-7" />
                 <span class="font-body text-sm capitalize">View Demo</span>
@@ -51,7 +51,7 @@
             </NuxtLink>
             <NuxtLink :to="project.githubLink" target="_blank">
               <div
-                class="mt-2 flex w-full cursor-pointer items-center justify-center rounded-lg bg-zinc-900/80 py-1 ring-1 ring-zinc-100/10 hover:shadow-[0px_0px_5px_rgba(56,189,248,0.35),0_0_12px_rgba(56,189,248,0.25),0_0_50px_rgba(56,189,248,0.15)] md:w-32 md:justify-evenly"
+                class="mt-2 flex w-full cursor-pointer items-center justify-center rounded-lg bg-zinc-900/80 py-1 ring-1 ring-zinc-100/10 transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-[0px_0px_5px_rgba(56,189,248,0.35),0_0_12px_rgba(56,189,248,0.25),0_0_50px_rgba(56,189,248,0.15)] md:w-32 md:justify-evenly"
               >
                 <IconBrandGithub class="size-8 pr-2 md:size-7" />
                 <span class="font-body text-sm capitalize">Github</span>
