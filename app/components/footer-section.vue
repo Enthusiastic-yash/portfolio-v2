@@ -77,9 +77,9 @@
       </div>
     </div>
     <span
-      class="font-body absolute bottom-0 flex w-full justify-center overflow-hidden py-4 text-xs text-zinc-400"
+      class="font-body absolute bottom-0 flex w-full justify-center overflow-hidden py-4 text-xs text-zinc-400 capitalize"
     >
-      &copy; {{ new Date().getFullYear() }} Designed & Built by Me.
+      &copy; {{ new Date().getFullYear() }} Designed & Built by Yash.
     </span>
   </footer>
 </template>
