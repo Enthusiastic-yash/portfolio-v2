@@ -37,6 +37,7 @@
       <slot />
     </main>
     <!-- footer -->
+    <footer-section />
   </div>
 </template>
 
