@@ -8,10 +8,10 @@
         <span class="block">DIGITAL SYSTEMS</span>
       </h1>
       <p
-        class="font-body pt-3 text-center text-xl leading-9 tracking-tight text-zinc-400/80 md:max-w-3xl md:text-start"
+        class="font-body pt-3 text-center text-xl leading-9 tracking-tight text-zinc-400/80 capitalize md:max-w-3xl md:text-start"
       >
-        I'm a Frontend Engineer focused on building scalable, aesthetic, and
-        high-performance web applications.
+        I’m a Frontend Engineer focused on building scalable, high-performance
+        web applications with clean and user-friendly interfaces.
       </p>
     </div>
     <div class="mt-4 flex flex-col items-center justify-center">
