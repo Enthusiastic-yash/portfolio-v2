@@ -62,10 +62,12 @@
           :key="menu.id"
           class="self-start pl-5 hover:text-zinc-100"
         >
-          <NuxtLink :to="`${menu.link}`">{{ menu.title }}</NuxtLink>
+          <NuxtLink :to="`${menu.link}`" @click="isOpen = false"
+            >{{ menu.title }}
+          </NuxtLink>
         </li>
 
-        <NuxtLink :to="resumeLink" target="_blank">
+        <NuxtLink :to="resumeLink" target="_blank" @click="isOpen = false">
           <li>
             <button
               class="group relative cursor-pointer rounded-full px-4 py-1.5 hover:text-zinc-100"
