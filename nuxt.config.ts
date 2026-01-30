@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
   modules: ["@nuxt/image", "@nuxtjs/google-fonts"],
+  build: {
+    transpile: ["gsap"],
+  },
   googleFonts: {
     families: {
       Inter: [300, 400, 500, 600, 700],
