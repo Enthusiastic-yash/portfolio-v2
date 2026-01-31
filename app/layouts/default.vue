@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-background flex min-h-screen w-full flex-col scroll-smooth text-zinc-400"
+    class="bg-background flex min-h-screen w-full transform-gpu flex-col scroll-smooth text-zinc-400"
   >
     <div
       class="absolute inset-0 bg-[radial-gradient(80%_100%_at_50%_-30%,hsl(206,81.9%,65.3%,0.5),rgba(255,255,255,0))] mask-[radial-gradient(75%_180%_at_top_center,white,transparent)] stroke-white/5"
