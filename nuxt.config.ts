@@ -2,6 +2,15 @@
 import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
+  app: {
+    head: {
+      title: "Yash kashyap",
+      htmlAttrs: {
+        lang: "en",
+      },
+      link: [{ rel: "icon", type: "image/x-icon", href: "/images/logo.png" }],
+    },
+  },
   css: ["./app/assets/css/main.css"],
   devtools: { enabled: true },
   vite: {
@@ -11,6 +20,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ["gsap"],
   },
+
   googleFonts: {
     families: {
       Inter: [300, 400, 500, 600, 700],
