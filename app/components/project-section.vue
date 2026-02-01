@@ -12,14 +12,14 @@
         :key="project.id"
         class="grid grid-cols-1 gap-5 py-14 md:grid-cols-2"
       >
-        <div class="aspect-auto">
+        <div class="project-card aspect-auto -translate-x-20 opacity-0">
           <NuxtImg
             :src="`./images/${project.id}.png`"
             class="rounded-xl"
             alt="nuxt-ai"
           />
         </div>
-        <div>
+        <div class="project-card translate-x-20 opacity-0">
           <h3
             class="font-heading bg-linear-to-br from-white to-zinc-500 bg-clip-text pb-2 text-xl font-bold text-transparent"
           >
@@ -142,6 +142,38 @@ const projects = ref<projectTypes[]>([
     githubLink: "#",
   },
 ]);
+const { $gsap } = useNuxtApp();
+
+let ctx: any;
+
+onMounted(async () => {
+  // await nextTick();
+
+  ctx = $gsap.context(() => {
+    // 1. Select all project cards
+    const cards = $gsap.utils.toArray(".project-card") as HTMLElement[];
+    cards.forEach((card) => {
+      $gsap.to(card, {
+        scrollTrigger: {
+          trigger: card, // Each card triggers itself
+          start: "top 85%", // Trigger when the top of THIS card hits 85% of viewport
+          end: "top 50%", // Optional: finish the animation by the time it hits middle
+          toggleActions: "play none none reverse",
+          //markers: true, // Uncomment this to see exactly where each card triggers!
+        },
+        x: 0, // Bring it to its natural CSS position
+        opacity: 1,
+        duration: 1.2,
+        ease: "power3.out",
+      });
+    });
+  });
+});
+
+onUnmounted(() => {
+  console.log("unmount");
+  ctx.revert();
+});
 </script>
 
 <style scoped></style>
