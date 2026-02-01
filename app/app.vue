@@ -9,6 +9,16 @@
 <script setup lang="ts">
 const { $gsap, $ScrollSmoother } = useNuxtApp();
 
+useHead({
+  meta: [
+    {
+      name: "description",
+      content:
+        "Yash Kashyap | Senior Frontend Developer & Nuxt.js Expert Creative Frontend Developer with 3+ years of experience specializing in Nuxt 3, Vue.js, and TypeScript. Proven track record in building scalable SaaS platforms and high-performance web applications like Medmate and Ausmate. Expert in UI/UX optimization and full-stack integration.",
+    },
+  ],
+});
+
 onMounted(() => {
   $ScrollSmoother.create({
     wrapper: "#smooth-wrapper",
