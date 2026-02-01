@@ -6,7 +6,7 @@
         <NuxtLink to="/">
           <NuxtImg
             class="size-10 object-cover invert"
-            src="./images/logo.png"
+            src="/images/logo.png"
             alt="logo"
           />
         </NuxtLink>

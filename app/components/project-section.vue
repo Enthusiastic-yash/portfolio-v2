@@ -85,7 +85,7 @@ const projects = ref<projectTypes[]>([
     tools: ["Html", "SCSS"],
     appLink: "https://yash-travel.netlify.app/",
     githubLink: "#",
-    imageUrl: "./images/7.png",
+    imageUrl: "/images/7.png",
   },
   {
     id: 2,
@@ -94,7 +94,7 @@ const projects = ref<projectTypes[]>([
     tools: ["Html", "SCSS", "javascript"],
     appLink: "https://yash-property.netlify.app/",
     githubLink: "#",
-    imageUrl: "./images/6.png",
+    imageUrl: "/images/6.png",
   },
   {
     id: 3,
@@ -104,7 +104,7 @@ const projects = ref<projectTypes[]>([
     tools: ["Html", "SCSS", "JavaScript"],
     appLink: "https://yash-nature.netlify.app/",
     githubLink: "#",
-    imageUrl: "./images/5.png",
+    imageUrl: "/images/5.png",
   },
   {
     id: 4,
@@ -114,7 +114,7 @@ const projects = ref<projectTypes[]>([
     tools: ["Html", "Tailwind CSS", "JavaScript", "Vue.js"],
     appLink: "https://location-ip-tracker.netlify.app/",
     githubLink: "https://github.com/Enthusiastic-yash/Ip-Tracker",
-    imageUrl: "./images/4.png",
+    imageUrl: "/images/4.png",
   },
   {
     id: 5,
@@ -124,7 +124,7 @@ const projects = ref<projectTypes[]>([
     tools: ["Html", "SCSS", "Firebase", "Vue.js"],
     appLink: "https://music-example-ruddy.vercel.app/",
     githubLink: "https://github.com/Enthusiastic-yash/Music-app",
-    imageUrl: "./images/3.png",
+    imageUrl: "/images/3.png",
   },
   {
     id: 6,
@@ -134,7 +134,7 @@ const projects = ref<projectTypes[]>([
     tools: ["Html", "CSS", "JavaScript", "Vue.js"],
     appLink: "https://global-weather-report.netlify.app/",
     githubLink: "https://github.com/Enthusiastic-yash/weather-app",
-    imageUrl: "./images/2.png",
+    imageUrl: "/images/2.png",
   },
   {
     id: 7,
@@ -155,7 +155,7 @@ const projects = ref<projectTypes[]>([
     ],
     appLink: "https://nuxt-ai-xi.vercel.app/",
     githubLink: "https://github.com/Enthusiastic-yash/Nuxt-ai-sass",
-    imageUrl: "./images/1.png",
+    imageUrl: "/images/1.png",
   },
 ]);
 
