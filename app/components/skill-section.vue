@@ -48,7 +48,7 @@ import {
 interface Skills {
   id: number;
   title: string;
-  logo: Icon;
+  logo?: Icon;
   iconColor: string;
 }
 
@@ -141,6 +141,11 @@ const skills = ref<Skills[]>([
     id: 15,
     title: "TypeScript",
     logo: IconBrandTypescript,
+    iconColor: "text-indigo-500",
+  },
+  {
+    id: 16,
+    title: "Vitest (Unit test)",
     iconColor: "text-indigo-500",
   },
 ]);
