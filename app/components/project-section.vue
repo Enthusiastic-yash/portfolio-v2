@@ -138,6 +138,24 @@ const projects = ref<projectTypes[]>([
   },
   {
     id: 7,
+    title: "Travel Log",
+    description:
+      "This full-stack travel log application, built with Nuxt.js and TypeScript, provides a modern digital journal for documenting adventures through an interactive MapLibre interface styled with DaisyUI. The platform leverages Pinia for efficient state management and utilizes Turso with Drizzle ORM for high-performance, type-safe data persistence. To ensure a secure and polished experience, the app integrates Better-Auth for authentication, while Vee-Validate and Zod handle robust form validation, allowing users to safely map and archive their travel memories within a sleek, responsive UI.",
+    tools: [
+      "Nuxt",
+      "Daisy UI",
+      "Typescript",
+      "Drizzle (ORM)",
+      "Turso",
+      "Zod",
+      "Better-Auth",
+    ],
+    appLink: "https://nuxt-travel-log-orcin-three.vercel.app/dashboard",
+    githubLink: "https://github.com/Enthusiastic-yash/nuxt-travel-log",
+    imageUrl: "/images/8.png",
+  },
+  {
+    id: 8,
     title: "Full-Stack Nuxt AI Suite (SaaS)",
     description:
       "A full-stack Software as a Service (SaaS) platform built with Nuxt 4 and Nuxt UI, offering a versatile collection of AI-powered tools. Key features include background removal, object removal from images using the Cloudinary API, a Resume Reviewer, Article Writer, and a Blog Title Generator. The application utilizes the Gemini/OpenAI API for core AI functionalities, manages user subscriptions via Polar, and ensures data persistence with the Turso database and Drizzle ORM for type-safe operations. Zod is used for robust runtime validation and Better-Auth for secure authentication.",
