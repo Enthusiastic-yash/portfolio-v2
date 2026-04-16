@@ -16,7 +16,11 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: ["@nuxt/image", "@nuxtjs/google-fonts"],
+  modules: ["@nuxt/image", "@nuxtjs/google-fonts", "nuxt-gtag"],
+  gtag: {
+    id: 'G-56GTWEM2YR'
+  },
+
   build: {
     transpile: ["gsap"],
   },
