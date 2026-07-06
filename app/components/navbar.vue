@@ -104,7 +104,7 @@ const menuList = ref([
 ]);
 
 const resumeLink = ref(
-  "https://drive.google.com/file/d/1W5ojwOzpuFeYxnHT0J8shQ9cXQCBWwN4/view",
+  "https://drive.google.com/file/d/178Xmlh_pICer-K1k8nSH03uZmV15ovqJ/view?usp=sharing",
 );
 </script>
 
